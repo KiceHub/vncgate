@@ -15,7 +15,6 @@
 ```bash
 make all          # 交叉编译 amd64/arm64/arm，输出到 bin/
 make upx          # 编译并 UPX 压缩（需安装 upx）
-make VERSION=1.7.0       # 指定 noVNC 版本（默认 1.7.0）
 make clean
 ```
 
