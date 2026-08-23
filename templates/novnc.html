@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VNC 远程桌面</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { height:100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif; background:#000; height:100vh; overflow:hidden; }
+#iframe-wrap { width:100%; height:100%; background:#000; }
+#iframe-wrap iframe { width:100%; height:100%; border:none; display:block; }
+</style>
+</head>
+<body>
+<div id="iframe-wrap">
+<iframe id="vncFrame" src="/vnc.html?autoconnect=1&path=websockify&reconnect=true" allow="clipboard-read;clipboard-write"></iframe>
+</div>
+</body>
+</html>

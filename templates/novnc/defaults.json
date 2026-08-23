@@ -1,0 +1,16 @@
+{
+  "autoconnect": false,
+  "reconnect": false,
+  "reconnect_delay": 5000,
+  "view_clip": false,
+  "resize": "off",
+  "quality": 6,
+  "compression": 2,
+  "shared": true,
+  "bell": "on",
+  "view_only": false,
+  "show_dot": false,
+  "path": "websockify",
+  "repeaterID": "",
+  "logging": "warn"
+}

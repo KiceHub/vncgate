@@ -1,0 +1,6 @@
+{
+  "name": "noVNC",
+  "version": "1.7.0",
+  "description": "VNC client using HTML5 (WebSockets, Canvas)",
+  "license": "MPL-2.0"
+}
